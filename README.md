@@ -1,7 +1,7 @@
 <div align = "center">
 
 # Quantum Computing
-This Repository covers the basics of quantum computing with notes, reference sheets, code using IBM's qiskit framework and a list of learning resources. All the concepts are explained on DSC TIET's YouTube channel. 
+This Repository covers the basics of quantum computing with notes, reference sheets, code using IBM's qiskit framework and a list of learning resources. Concepts are also explained on the attached YouTube Playlist. 
 
 
 </div>
@@ -105,9 +105,6 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/sanya-nanda-aba12218b//"><img src="https://avatars.githubusercontent.com/u/51756349?v=4" width="100px;" alt=""/><br /><sub><b>Sanya Nanda</b></sub></a><br /><a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=SanyaNanda" title="Documentation">📖</a><a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=SanyaNanda" title="Code">💻</a> <a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=SanyaNanda" title="Design">🎨</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/apurvi-garg-43b363207/"><img src="https://avatars.githubusercontent.com/u/96242449?v=4" width="100px;" alt=""/><br /><sub><b>Apurvi Garg</b></sub></a><br /><a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=ApurviGarg" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/hsk4link/"><img src="https://avatars.githubusercontent.com/u/31770598?v=4" width="100px;" alt=""/><br /><sub><b>Harishankar Kumar</b></sub></a><br /><a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=hari01584" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/pramit-deep-kaur-gogna/"><img src="https://avatars.githubusercontent.com/u/65402284?v=4" width="100px;" alt=""/><br /><sub><b>Pramit Deep Kaur Gogna</b></sub></a><br /><a href="https://github.com/developer-student-club-thapar/Quantum-Computing/commits?author=Pramit29" title="Code">💻</a></td>    
    </tr>
 </table>
 
