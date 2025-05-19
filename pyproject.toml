@@ -1,0 +1,52 @@
+# pyproject.toml
+# -----------------------------------------------------------
+# Lightweight, uv-friendly project file for Python 3.12
+# Hybrid quantum-computing sandbox: Qiskit, Cirq, PennyLane,
+# and Microsoft QDK (via azure-quantum[qdk]).
+# -----------------------------------------------------------
+
+[project]
+name            = "quantum_experiments"
+version         = "0.1.4"
+description     = "Quantum-Computing"
+readme          = "README.md"
+requires-python = ">=3.12,<3.13"
+license         = { text = "MIT" }
+keywords        = ["quantum-computing", "qiskit", "cirq", "pennylane", "qdk"]
+authors         = [
+  { name = "Sanya Nanda", email = "sanya.nanda@gmail.com" }
+]
+
+# --- Core runtime dependencies ----------------------------------------
+dependencies = [
+  # Major quantum SDKs
+  "qiskit[all]~=2.0.0",
+  "qiskit-ibm-runtime~=0.37.0",
+  "qiskit_aer",
+  "cirq>=1.2,<2",
+  "pennylane>=0.37,<1",
+  "azure-quantum[qdk]>=1.0,<2",
+
+  # (optional) notebooks & plotting
+  "ipykernel>=6.29,<7",
+  "matplotlib>=3.9,<4",
+  "numpy>=1.26,<2",
+  "pylatexenc"
+]
+
+# --- Optional groups --------------------------------------------------
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2,<9",
+  "pytest-cov>=5,<6",
+  "black>=24.4,<25",
+  "ruff>=0.4,<1",
+  "pre-commit>=3.7,<4"
+]
+
+# ----------------------------------------------------------------------
+# Build backend (needed if you ever publish a wheel/sdist)
+# ----------------------------------------------------------------------
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

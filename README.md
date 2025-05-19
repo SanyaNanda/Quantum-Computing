@@ -5,6 +5,19 @@ This Repository covers the basics of quantum computing with notes, reference she
 
 
 </div>
+## How to run?
+Install uv
+curl -LsSf https://astral.sh/uv/install | sh
+
+
+create a virtual env
+uv venv .venv --python=3.12
+source .venv/bin/activate  
+
+Install dependecies using uv
+uv sync
+---
+
 
 ## Index of the Repository
 
